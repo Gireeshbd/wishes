@@ -1,0 +1,82 @@
+body {
+  background-color: rgb(3, 58, 58);
+  text-align: center;
+  margin-top: auto;
+  color: aliceblue;
+  font-family: "Happy Monkey", cursive;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#photo {
+  width: 30%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid lightcoral;
+}
+
+h1,
+h3,
+h2 {
+  text-shadow: 5px -2px 2px black;
+}
+.gift-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.giftimage {
+  width: 300px;
+  height: 300px;
+  border: 6px solid rgb(113, 55, 55) (98, 8, 8);
+
+  background-image: url("gift.png");
+
+  background-size: cover;
+}
+
+.giftimage1 {
+  width: 500px;
+  height: 300px;
+  border: 6px solid rgb(113, 55, 55) (98, 8, 8);
+
+  background-image: url("gift.png");
+
+  background-size: cover;
+}
+.giftimage2 {
+  width: 300px;
+  height: 500px;
+  border: 6px solid rgb(113, 55, 55) (98, 8, 8);
+
+  background-image: url("gift.png");
+
+  background-size: cover;
+}
+#happy:hover {
+  background-image: url("happy.webp");
+}
+#princess:hover {
+  background-image: url("princess.webp");
+}
+#star:hover {
+  background-image: url("star.webp");
+}
+#smile:hover {
+  background-image: url("smile.gif");
+}
+#noIdea:hover {
+  background-image: url("noIdea.webp");
+}
+#galaxy:hover {
+  background-image: url("galaxy.webp");
+}
+#happyy:hover {
+  background-image: url("happyy.png");
+}
+h4 {
+  color: red;
+}
